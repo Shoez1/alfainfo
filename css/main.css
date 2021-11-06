@@ -424,7 +424,7 @@ textarea,
 	content: ""; display: table; clear: both;
 	}
 .page-layout { 
-	position: relative; width: 100%; min-height: 100%; background-size: cover; background-position: center center; 
+	position: relative; width: 100%; min-height: 100%; background-size: cover5; background-position: center center; 
 	}
 .p-overlay * {
 	-webkit-backface-visibility: hidden;
@@ -486,7 +486,7 @@ textarea,
 
 /* ----- 4.1 HEADER ----- */
 .header {
-	position: relative; display: flex; align-items: center; justify-content: center; text-align: center; padding: 7vh 0; background-size: cover; background-attachment: fixed; background-position: center; background-color: #000; overflow: hidden;
+	position: relative; display: flex; align-items: center; justify-content: center; text-align: center; padding: 7vh 0; background-size: cover5; background-attachment: fixed; background-position: center; background-color: #000; overflow: hidden;
 	}
 .ios12 .header {
 	background-attachment: scroll;
@@ -618,7 +618,7 @@ textarea,
 	display: flex; width: 100%; height: 100vh; position: relative; align-items: center; overflow: hidden;
 	}
 .home-bg {
-	position: absolute; top: 0; left: 0; width: 125%; height: 100%; background-size: cover; background-position: center center; opacity: 0;
+	position: absolute; top: 0; left: 0; width: 125%; height: 100%; background-size: cover5; background-position: center center; opacity: 0;
 	}
 .home-bg:after {
 	content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #000; opacity: 0;
