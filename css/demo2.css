@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+
+/* Home Título Bg Color */
+.home-text-container {
+    background: #9a3869;
+	}
+		
+/* Opacidade da máscara da imagem inicial */
+.home-bg:after, .header:before { 
+	opacity: 0.3; 
+	}
+
+/* Cor do corpo do texto */
+body { 
+	color: #927d72; 
+	}
+
+/* Cor do link */
+a { 
+	color: #9a3869; 
+	}
+
+/* Link Hover Color */
+a:hover {
+ 	color: #9a3869
+	}
+.cool-link {
+	background-image: linear-gradient(transparent 88%, #9a3869 12%);
+	}	
+
+/* HEADINGS FONT */
+h1,
+.entry-title { 
+	font-family: 'Playfair Display', serif; 
+	}
+
+/* Headings Text Color */
+h1, h2, h3, h4, h5, h6, blockquote {
+    color: #4e4c48;
+	}
+
+
+/* HOME TITLE */
+.home-logo-center,
+.home-logo-left,
+.home-logo-right {
+	font-family: 'Verdana', serif;
+	}
+
+/* HOME MENU */
+.home-menu {
+	font-family: 'Jost*', sans-serif; 
+	}
+
+/* Home Menu Font Weight */
+.home-menu .item-name { 
+	font-weight: 700; 
+	}
+
+/* Heading 1 Font Weight */
+h1, .entry-title { 
+	font-weight: 400; 
+	}
+
+
+/* COR PRIMÁRIA : #a97d67 */
+.button:after,
+input[type=submit]:hover, 
+input[type=button]:hover, 
+.more-link:after,
+button:hover, 
+.pagination a:hover,
+.navigation a:hover,
+.event:nth-of-type(2):after,
+.elementor-widget:nth-of-type(2) .event:after,
+.portfolio-nav a:hover,
+.skill-unit .bar .progress,
+#nprogress .bar,
+.media-date,
+.home-menu .item-name::before,
+.home-menu .item-name::after,
+.overlay-2,
+.mfp-bg  {
+ 	background-color: #9a3869;
+	}
+*::-webkit-scrollbar-thumb {
+	background-color: #9a3869;
+	}
+.bypostauthor > article,
+.event h3,
+input:not([type=submit]):not([type=button]):not([type=file]):not([type=radio]):not([type=checkbox]):focus, 
+textarea:focus, 
+input:focus, 
+select:focus,
+.tabs .tab-titles li a.active,
+input[type=submit], 
+input[type=button], 
+button, 
+.button,
+.more-link,
+.navigation a {
+	border-color: #9a3869
+	}
+.event h3,
+.entry-title a:hover,
+input[type=submit], 
+input[type=button], 
+button, 
+.button,
+.more-link,
+.navigation a,
+.filters .current .cool-link {
+	color: #9a3869
+	}
+#nprogress .spinner-icon {
+  	border-top-color: #9a3869; border-left-color: #9a3869;
+	}
