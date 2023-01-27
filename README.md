@@ -1,1 +1,1 @@
-https://shoez1.github.io/MypageAmanda/
+https://github.com/Shoez1/alfainfo
