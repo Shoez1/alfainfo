@@ -601,6 +601,19 @@ Venha, nos fazer uma visita para conhecer nossa estrutura de serviços prestados
     <script src="assets/js/TweenMax.min.js"></script>
     <script src="assets/js/validnavs.js"></script>
     <script src="assets/js/main.js"></script>
+	<script>
+  // Função para redirecionar para a página 404
+  function redirectTo404() {
+    window.location.href = '404.html';
+  }
 
+  // Verifica se um link resulta em erro e redireciona para a página 404
+  document.addEventListener('DOMContentLoaded', function() {
+    var links = document.getElementsByTagName('a');
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener('error', redirectTo404);
+    }
+  });
+</script>
 </body>
 </html>
